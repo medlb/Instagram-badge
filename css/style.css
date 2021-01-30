@@ -91,7 +91,7 @@ section {
 .badge-generator .section-body p {
   margin-bottom: 5px; }
 
-.badge-generator .section-body input {
+.badge-generator .section-body input , .cpt {
   text-align: center;
   margin: 10px 10px 6px;
   padding: 12px;
@@ -218,7 +218,7 @@ section {
 @media screen and (max-width: 900px) {
   section {
     width: 500px; }
-  .badge-generator .section-body input, button, #progress-wrapper {
+  .badge-generator .section-body input, button, .cpt , #progress-wrapper {
     width: 300px; } }
 
 @media screen and (max-width: 600px) {
@@ -263,5 +263,5 @@ section {
     display: none; } }
 
 @media screen and (max-width: 340px) {
-  .badge-generator .section-body input, button, #progress-wrapper {
+  .badge-generator .section-body input, button, .cpt, #progress-wrapper {
     width: 220px; } }
